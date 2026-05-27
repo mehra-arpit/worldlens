@@ -1,0 +1,19 @@
+WorldLens v4 hard icon reset
+
+This package forces the illustrated person/globe/lens icon everywhere:
+- manifest icons
+- favicon.ico
+- favicon-16.png / favicon-32.png
+- apple-touch-icon.png
+- compatibility icon-192.png / icon-512.png
+
+Upload the full contents to your GitHub repo root.
+
+Then do this exactly:
+1. Delete the old installed WorldLens app from Android home screen/app list.
+2. In Chrome: Settings → Site settings → All sites → your github.io domain → Clear & reset.
+3. Open your site with:
+   ?reset=icon4
+4. Wait for the page to load, then use Chrome menu → Add to Home screen / Install app.
+
+If the icon still shows a yellow W, your phone is not using the new GitHub Pages files or the old PWA shortcut is still installed.

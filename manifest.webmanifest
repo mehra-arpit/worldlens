@@ -1,0 +1,37 @@
+{
+  "name": "WorldLens",
+  "short_name": "WorldLens",
+  "start_url": "./index.html?v=4-globe-lens",
+  "display": "standalone",
+  "background_color": "#f8f5ef",
+  "theme_color": "#172033",
+  "icons": [
+    {
+      "src": "icons/worldlens-globe-lens-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/worldlens-globe-lens-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/worldlens-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/worldlens-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "description": "A gamified general knowledge roadmap app for building broader world understanding.",
+  "id": "/worldlens/?v=4-globe-lens",
+  "scope": "./"
+}
